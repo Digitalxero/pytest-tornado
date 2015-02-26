@@ -10,4 +10,9 @@ env:
 install:
     - pip install -q tornado==$TORNADO_VERSION pytest==$PYTEST_VERSION
     - python setup.py install
-script: py.test --strict
+before_script:
+    - pip install -r test_requirements.txt
+script:
+    - py.test --strict --cov=pytest_tornado --cov-report=term-missing
+after_success:
+  - coveralls
