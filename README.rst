@@ -1,8 +1,8 @@
 pytest-tornado
 ==============
 
-.. image:: https://travis-ci.org/eugeniy/pytest-tornado.svg?branch=master
-    :target: https://travis-ci.org/eugeniy/pytest-tornado
+.. image:: https://travis-ci.org/Digitalxero/pytest-tornado.svg
+    :target: https://travis-ci.org/Digitalxero/pytest-tornado
 
 .. image:: https://coveralls.io/repos/Digitalxero/pytest-tornado/badge.svg
     :target: https://coveralls.io/r/Digitalxero/pytest-tornado
